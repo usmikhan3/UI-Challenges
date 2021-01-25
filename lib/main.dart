@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui_complexity/CreditCardUi/screens/home_screen.dart';
 import 'package:flutter_ui_complexity/PlantAppUi/constants/constants.dart';
 import 'file:///F:/AndroidStudioProject/flutter_ui_complexity/lib/PlantAppUi/screens/home/components/home_screen.dart';
 import 'package:flutter_ui_complexity/drawerUI/drawerChallenge1.dart';
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
+        fontFamily: 'Circular',
         scaffoldBackgroundColor:kBackgroundColor ,
         primaryColor: kPrimaryColor,
         textTheme: Theme.of(context).textTheme.apply(bodyColor: kTextColor),
@@ -25,7 +27,7 @@ class MyApp extends StatelessWidget {
 
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomeScreen(),
+      home: HomeScreenWallet(),
     );
   }
 }
