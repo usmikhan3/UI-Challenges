@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
 
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomeScreenWallet(),
+      home: DrawerChallenge2(),
     );
   }
 }

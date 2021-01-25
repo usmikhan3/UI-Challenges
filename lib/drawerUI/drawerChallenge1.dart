@@ -127,7 +127,7 @@ class MyDrawer extends StatelessWidget {
             mainAxisSize: MainAxisSize.max,
             children: [
               Image.asset(
-                'assets/subject.png',
+                'assets/images/logo.png',
                 width: 200,
               ),
               ListTile(
