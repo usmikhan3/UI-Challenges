@@ -1,6 +1,6 @@
 # flutter_ui_complexity
 
-A new Flutter application.
+Flutter complex UI
 
 ## Getting Started
 
